@@ -74,19 +74,6 @@ export function Hero() {
                             >
                                 무료 견적 상담
                             </Button>
-                            <Button
-                                component={motion.button}
-                                whileHover={{ scale: 1.05, backgroundColor: 'rgba(255,255,255,0.1)' }}
-                                whileTap={{ scale: 0.95 }}
-                                size="xl"
-                                variant="outline"
-                                color="white"
-                                c="white"
-                                leftSection={<IconCalculator size={20} />}
-                                radius="md"
-                            >
-                                예상 절감액 확인
-                            </Button>
                         </Group>
                     </motion.div>
                 </Box>
